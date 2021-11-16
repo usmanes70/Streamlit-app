@@ -31,7 +31,7 @@ st.sidebar.markdown('Use this panel to explore the datasets')
 
 # Covid-19 dataset
 
-df = pd.read_csv('./csse_covid19_daily_reports_cleaned.csv')
+df = pd.read_csv('https://github.com/usmanes70/Streamlit-app/blob/main/csse_covid19_daily_reports_cleaned.csv')
 
 # Explore Dataset
 
@@ -181,7 +181,7 @@ if st.sidebar.checkbox('Visualize'):
 
 # Pakistan Economy dataset
 
-pak_economy = pd.read_csv('./Pakistan economic and unemployment data cleaned.csv')
+pak_economy = pd.read_csv('https://github.com/usmanes70/Streamlit-app/blob/main/Pakistan%20economic%20and%20unemployment%20data%20cleaned.csv')
 
 st.title('Pakistan Economical Condition and Unemployment Dataset')
 
