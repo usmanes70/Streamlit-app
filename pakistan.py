@@ -8,7 +8,7 @@ from PIL import Image
 
 st.markdown('# Pakistan Covid-19 Analysis')
 
-image = Image.open('./covid notebooks/covid19 image.jpg')
+image = Image.open('https://github.com/usmanes70/Streamlit-app/blob/main/covid19%20image.jpg')
 
 st.image(image)
 
