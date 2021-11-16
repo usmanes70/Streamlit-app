@@ -8,7 +8,7 @@ from PIL import Image
 
 st.markdown('# Pakistan Covid-19 Analysis')
 
-image = Image.open('https://github.com/usmanes70/Streamlit-app/blob/main/covid19%20image.jpg')
+image = Image.open('covid19 image.jpg')
 
 st.image(image)
 
@@ -31,7 +31,7 @@ st.sidebar.markdown('Use this panel to explore the datasets')
 
 # Covid-19 dataset
 
-df = pd.read_csv('https://github.com/usmanes70/Streamlit-app/blob/main/csse_covid19_daily_reports_cleaned.csv')
+df = pd.read_csv('csse_covid19_daily_reports_cleaned.csv')
 
 # Explore Dataset
 
@@ -181,7 +181,7 @@ if st.sidebar.checkbox('Visualize'):
 
 # Pakistan Economy dataset
 
-pak_economy = pd.read_csv('https://github.com/usmanes70/Streamlit-app/blob/main/Pakistan%20economic%20and%20unemployment%20data%20cleaned.csv')
+pak_economy = pd.read_csv('Pakistan economic and unemployment data cleaned.csv')
 
 st.title('Pakistan Economical Condition and Unemployment Dataset')
 
